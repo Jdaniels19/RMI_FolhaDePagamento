@@ -1,6 +1,7 @@
 package model;
+import java.io.Serializable;
 
-public class CargoModel {
+public class CargoModel implements Serializable {
     private int id_cargo;
     private String nome;
     private String descricao;

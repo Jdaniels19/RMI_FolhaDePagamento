@@ -1,6 +1,7 @@
 package model;
+import java.io.Serializable;
 
-public class PagamentoModel {
+public class PagamentoModel implements Serializable {
     private int id_pagamento;
     private int id_cliente;
     private float valor_liquido;

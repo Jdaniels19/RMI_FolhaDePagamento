@@ -1,6 +1,7 @@
 package model;
+import java.io.Serializable;
 
-public class DepartamentoModel {
+public class DepartamentoModel implements Serializable {
     private int id_Departamento;
     private String nome;
     private String localizacao;

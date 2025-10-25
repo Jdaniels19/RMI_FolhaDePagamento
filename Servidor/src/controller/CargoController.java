@@ -52,7 +52,7 @@ public class CargoController extends UnicastRemoteObject implements CargoInterfa
             //PASSAR PARAMETROS
             sentenca.setString(1, cargo.getNome());
             sentenca.setString(2, cargo.getDescricao());
-            sentenca.setFloat(3, cargo.setSalario());
+            sentenca.setFloat(3, cargo.getSalario());
             sentenca.setInt(4, cargo.getId_cargo());
             //EXECUTAR SENTENCA
             if (!sentenca.execute()) {
